@@ -202,7 +202,7 @@ git clone https://github.com/szervoudis1/Docker-Project.git
 5. https://localhost:80
    * Result : 
 
-<img src = "Stock-Image.png">
+<img src = "Stock-Image.PNG">
 
 
 5. sudo docker-compose down
