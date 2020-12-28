@@ -1,0 +1,29 @@
+ version: '3.1'
+ services:
+     nginx:
+         image: nginx:1.13.7
+         container_name: nginx
+         restart: always
+         depends_on:
+             - stef_flask_app
+         volumes:
+             - ./nginx.conf:/etc/nginx/conf.d/default.conf
+         networks:
+             - my-network
+         ports:
+             - 80:80
+
+     stef_flask_app:
+         build: 
+            context: ./APP 
+            dockerfile: Dockerfile
+         container_name: mycontainer
+         restart: always
+         environment:
+             - ./app.py
+         networks:
+             my-network:
+                 aliases:
+                     - flask-app
+ networks:
+    my-network:
