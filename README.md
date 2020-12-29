@@ -63,9 +63,7 @@ cd APP
 ```visual basic
 nano Dockerfile
 
-cat Dockerfile	# If you want to see the code of Dockerfile
-
-    # You will find below, the Dockerfile 
+cat Dockerfile
 ```
 
 
@@ -75,9 +73,7 @@ cat Dockerfile	# If you want to see the code of Dockerfile
 ```visual basic
 nano requirements
 
-cat requirements.txt	# If you want to see the code of reuirements.txt
-   
-    # You will find below, the requirements.txt
+cat requirements.txt
 ```
 
 
@@ -131,9 +127,7 @@ cd Docker
 
 nano nginx.conf
 
-cat nginx.conf	# If you wan to see the code of nginx.conf
-       
-    # You will find below, the nginx.conf
+cat nginx.conf
 ```
 
 
@@ -146,9 +140,7 @@ cd Docker
 
 nano docker-compose.yml
 
-cat docker-compose.yml	# If you want to see the code of docker-compose.yml
-       
-    # You will find below, the docker-compose.yml
+cat docker-compose.yml
 ```
 
 
