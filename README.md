@@ -85,7 +85,7 @@ cat requirements.txt	# If we want to see the code of reuirements.txt
 #### Build a Container
 
 ```bash
-sudo docker build -t szervoudis/mycontainer .
+sudo docker build -t szervoudis/mycontainer .	# Create our container with name: mycontainer
 ```
 
 
@@ -93,7 +93,7 @@ sudo docker build -t szervoudis/mycontainer .
 #### Run the container
 
 ```bash
-sudo docker run -p 8080:5000 szervoudis/mycontainer
+sudo docker run -p 8080:5000 szervoudis/mycontainer	# Run our container to the port --> https://localhost:
 ```
 
 
