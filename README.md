@@ -75,7 +75,7 @@ cat Dockerfile		# If we want to see the code of Dockerfile
 #### Create Requirements
 
 ```bash
-nano requirements		# You will find below, the requirements.txt
+nano requirements	# You will find below, the requirements.txt
 
 cat requirements.txt	# If we want to see the code of reuirements.txt  
 ```
