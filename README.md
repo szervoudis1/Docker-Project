@@ -182,9 +182,9 @@ sudo docker-compose down
 Name of Repository is : Docker-Project
 
 # Go to the Github and get the HTTPS link of the project.
-	
-link: https://github.com/szervoudis1/Docker-Project
-
+```	
+Link: https://github.com/szervoudis1/Docker-Project
+```bash
 # So we can go ahead and clone the repository locally like so with the following command :
 
 git clone https://github.com/szervoudis1/Docker-Project.git
