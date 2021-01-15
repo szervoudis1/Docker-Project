@@ -208,8 +208,7 @@ git clone https://github.com/szervoudis1/Docker-Project.git
 5. https://localhost:80
    * Result : 
 
-![](C:\Users\Στέφανος\Desktop\Docker Project\Docker\picture.png)
-
+![img](picture.PNG)
 
 5. sudo docker-compose down
 
