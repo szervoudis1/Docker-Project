@@ -93,7 +93,7 @@ sudo docker build -t szervoudis/mycontainer .	# Create our container with name: 
 #### Run the container
 
 ```bash
-sudo docker run -p 8080:5000 szervoudis/mycontainer	# Run our container to the port --> https://localhost:
+sudo docker run -p 8080:5000 szervoudis/mycontainer	# Run the container to the port --> https://localhost:8080
 ```
 
 
