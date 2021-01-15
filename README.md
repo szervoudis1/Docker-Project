@@ -68,8 +68,6 @@ cd APP
 nano Dockerfile		# You will find below, the Dockerfile 
 
 cat Dockerfile		# If we want to see the code of Dockerfile
-
-
 ```
 
 
@@ -79,9 +77,7 @@ cat Dockerfile		# If we want to see the code of Dockerfile
 ```bash
 nano requirements		# You will find below, the requirements.txt
 
-cat requirements.txt	# If we want to see the code of reuirements.txt
-   
-    
+cat requirements.txt	# If we want to see the code of reuirements.txt  
 ```
 
 
@@ -146,9 +142,7 @@ cd Docker
 
 nano nginx.conf		# You will find below, the nginx.conf
 
-cat nginx.conf		# If we want to see the code of nginx.conf
-       
-    
+cat nginx.conf		# If we want to see the code of nginx.conf   
 ```
 
 
@@ -161,9 +155,7 @@ cd Docker
 
 nano docker-compose.yml		# You will find below, the docker-compose.yml
 
-cat docker-compose.yml		# If we want to see the code of docker-compose.yml
-       
-    
+cat docker-compose.yml		# If we want to see the code of docker-compose.yml         
 ```
 
 
@@ -266,7 +258,6 @@ scipy==1.5.4
 pandas-datareader
 
 openpyxl
-
 ```
 
 
@@ -366,8 +357,7 @@ def index():
 if __name__ == "__main__":
   
     # Export Port
-    app.run(host='0.0.0.0',port=5000,debug=False)
-   
+    app.run(host='0.0.0.0',port=5000,debug=False)   
 ```
 
 
@@ -421,7 +411,6 @@ server {
 
  networks:
     my-network:
-
 ```
 
 #### index.html
