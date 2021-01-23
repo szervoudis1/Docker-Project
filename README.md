@@ -33,7 +33,7 @@
 Γίνεται σύνδεση δύο container του mycontainer που περιέχει την εφαρμογή Flask-app, με τον NGINX όπου μπορεί να δέχεται πολλά 
 αιτήματα την ιδία στιγμή διότι o web-server λειτουργεί σαν reverse proxy & load balancer. 
 
-Η παρούσα Εργασία εκτελέστηκε σε Linux περιβάλλον. 
+Η παρούσα Εργασία εκτελέστηκε σε Linux περιβάλλον (Ununtu version 20.4). 
 ```
 
 
@@ -343,7 +343,7 @@ def index():
     # 3
     daily_fluctuation(Stock_name)   
     # 4
-    normalize(Stock_name   
+    normalize(Stock_name)   
 
     global image_name
     image_name = 'image_'+ Stock_name + str(start_date) + str(stop_date) + '.jpg'   
